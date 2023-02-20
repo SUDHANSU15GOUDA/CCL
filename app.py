@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-m = pickle.load(open('random_f.pkl','rb'))
+#m = pickle.load(open('random_f.pkl','rb'))
 
 workclass = [' State-gov', ' Self-emp-not-inc', 
              ' Private', ' Federal-gov',
