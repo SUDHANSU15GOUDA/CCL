@@ -3,4 +3,4 @@ matplotlib
 pickle5
 streamlit
 seaborn
-scikit-learn
+scikit_learn
