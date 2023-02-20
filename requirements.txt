@@ -1,6 +1,6 @@
-pandas
-matplotlib
-pickle5
+numpy
 streamlit
 seaborn
+pandas
+matplotlib
 scikit_learn
