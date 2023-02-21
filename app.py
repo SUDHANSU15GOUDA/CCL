@@ -90,9 +90,9 @@ if st.button('Predict'):
     
     st.title('Predicted Outcome...')
     if result[0] == 'Income less than 50K':
-        st.header('Income less than ₹50,000')
+        st.info('Income less than ₹50,000')
     else:
-        st.header('Income more than ₹50,000')
+        st.info('Income more than ₹50,000')
     
     
     
