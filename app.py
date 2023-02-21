@@ -89,7 +89,7 @@ if st.button('Predict'):
     result_percentage = random_f.predict_proba(input_df)
     
     st.title('Predicted Outcome...')
-    st.header(result[0])
+    st.info(result[0])
     
     
     
@@ -99,8 +99,8 @@ if st.button('Predict'):
     f = result_percentage[0][0]
     s = result_percentage[0][1]
     
-    st.header("Chances of Income more than 50K : "+str(round(f*100,2))+"%")
-    st.header("Chances of Income less than 50K : "+str(round(s*100,2))+"%")
+    st.success("Chances of Income more than 50K : "+str(round(f*100,2))+"%")
+    st.error("Chances of Income less than 50K : "+str(round(s*100,2))+"%")
     
        
     
