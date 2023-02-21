@@ -3,5 +3,5 @@ streamlit
 seaborn
 pandas
 matplotlib
-scikit_learn
+scikit_learn==1.0.2
 pickle5
