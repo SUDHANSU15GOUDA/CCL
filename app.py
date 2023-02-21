@@ -89,7 +89,10 @@ if st.button('Predict'):
     result_percentage = random_f.predict_proba(input_df)
     
     st.title('Predicted Outcome...')
-    st.info(result[0])
+    if result[0] == 'Income less than 50K':
+        st.header('Income less than ₹50,000')
+    else:
+        st.header('Income more than ₹50,000')
     
     
     
