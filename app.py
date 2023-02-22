@@ -115,8 +115,8 @@ if selected == 'Predection Page':
         f = result_percentage[0][0]
         s = result_percentage[0][1]
         
-        st.success("Chances of Income more than 50K : "+str(round(f*100,2))+"%")
-        st.error("Chances of Income less than 50K : "+str(round(s*100,2))+"%")
+        st.success("Chances of Income more than ₹50,000 : "+str(round(f*100,2))+"%")
+        st.error("Chances of Income less than ₹50,000 : "+str(round(s*100,2))+"%")
     
 
 
